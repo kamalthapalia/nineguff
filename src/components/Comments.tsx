@@ -9,6 +9,7 @@ function Comments() {
             <Comment/>
             <Comment/>
             <Comment/>
+            
             <div className={`flex justify-center`}>
                 <input className={`flex-grow`} type="text" name="" id=""/>
                 <BsArrowRightCircle size={``}/>
