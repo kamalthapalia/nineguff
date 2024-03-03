@@ -1,5 +1,6 @@
 import React from 'react';
 import Comment from "./Comment";
+import {BsArrowRightCircle} from "react-icons/bs";
 
 function Comments() {
     return (
@@ -8,6 +9,10 @@ function Comments() {
             <Comment/>
             <Comment/>
             <Comment/>
+            <div className={`flex justify-center`}>
+                <input className={`flex-grow`} type="text" name="" id=""/>
+                <BsArrowRightCircle size={``}/>
+            </div>
         </div>
     );
 }
